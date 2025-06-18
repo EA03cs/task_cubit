@@ -10,12 +10,12 @@ void handleStateChanges(BuildContext context, EditState state) {
   if (state is incrementState) {
     showSnackBar(
       context,
-      'اتزودت لـ ${cubit.count}',
+      'زودنا واحد يعم وبقت  ${cubit.count}',
     );
   } else if (state is chandephotoo) {
     showSnackBar(
       context,
-      'تم تغيير الصورة',
+      'غيرناها',
     );
   }
 }
